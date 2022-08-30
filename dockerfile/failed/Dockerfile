@@ -6,4 +6,3 @@ COPY . /app
 RUN chown -R tronxd:tronxd /app
 USER tronxd
 CMD node index.js
-
